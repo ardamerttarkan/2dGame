@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/MainMenuStyle.uss?fileID=7433441132597879392&amp;guid=3d235147a6286e44e935af234b0ec7f0&amp;type=3#MainMenuStyle" />
+    <ui:VisualElement name="Container" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/tryit.png?fileID=2800000&amp;guid=4fd34a404346f8c6da1d97d784893693&amp;type=3#tryit&quot;);">
+        <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="StartGame" class="button" style="-unity-font-style: bold; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); margin-top: 250px; margin-right: 0; margin-left: 4px; padding-right: 20px; background-image: none; -unity-background-scale-mode: scale-to-fit; -unity-slice-left: 238; left: -16px; height: 55px; width: 190px; align-items: auto; -unity-slice-top: 200; -unity-slice-right: 200; -unity-slice-bottom: 200; -unity-slice-scale: 200px; opacity: 0;">
+            <ui:Button text="Oyundan Çık" parse-escape-sequences="true" display-tooltip-when-elided="true" name="StartGameLogo" class="button" style="margin-top: 7px; background-color: rgb(255, 255, 255); -unity-font-style: bold; -unity-slice-top: 0; -unity-background-scale-mode: stretch-to-fill; -unity-slice-scale: 2px; left: -16px; height: 55px; width: 190px; margin-right: 1px; opacity: 0;" />
+        </ui:Button>
+        <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="QuitGame" class="button" style="width: 60px; background-image: none; margin-top: -120px; margin-right: 150px; height: 60px; background-color: rgba(188, 188, 188, 0); -unity-background-image-tint-color: rgba(255, 255, 255, 0); opacity: 0;">
+            <ui:Button text="Button" parse-escape-sequences="true" display-tooltip-when-elided="true" name="QuitGameLogo" style="opacity: 0; -unity-background-image-tint-color: rgb(0, 0, 0);" />
+        </ui:Button>
+        <ui:Button text="Button" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Market" style="opacity: 0;" />
+        <ui:Button text="Button" parse-escape-sequences="true" display-tooltip-when-elided="true" name="SoundCheck" style="opacity: 0;" />
+    </ui:VisualElement>
+</ui:UXML>

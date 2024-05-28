@@ -1,0 +1,25 @@
+.startGameButton {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+}
+
+.quitGameButton {
+    width: 220px;
+    height: 50px;
+    justify-content: flex-start;
+    align-items: auto;
+    align-self: flex-end;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.marketButton {
+}
+
+.soundOnIcon {
+}
+
+.soundOffIcon {
+}
